@@ -567,21 +567,26 @@ textarea {
 }
 
 .project-image {
-  min-height: 220px;
+  min-height: 260px;
   background-size: cover;
-  background-position: center;
+  background-position: top center;
+  background-repeat: no-repeat;
 }
 
 .project-image-1 {
-  background: linear-gradient(135deg, #f97316 0%, #fb923c 100%);
+  background-image: url("../images/sms-campaigning.png");
 }
 
 .project-image-2 {
-  background: linear-gradient(135deg, #1d4ed8 0%, #3b82f6 100%);
+  background-image: url("../images/ai-chatbot.png");
 }
 
 .project-image-3 {
-  background: linear-gradient(135deg, #10b981 0%, #14b8a6 100%);
+  background-image: url("../images/portfolio.png");
+}
+
+.project-image-4 {
+  background-image: url("../images/admin-dashboard.png");
 }
 
 .project-content {
